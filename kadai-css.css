@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* セクション：ヘッダーのCSS設定 */
+.header{
+    width:1000px;
+    margin: 0;
+    background-color: #ffcccc;
+}
+
+/* セクション：メインとサイドバー（2カラムレイアウト）を整える*/
+#wrapper{
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    width:70%;
+    background-color:#ccffcc;
+}
+
+#menu{
+    width:30%;
+    background-color:#ccccff;
+}
+
+/* セクション：フッダーのCSS設定 */
+.footer{
+    width:1000px;
+    margin: 0;
+    background-color:#ffccff;
+}
